@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+/*fonts*/
+@font-face {
+	font-family: 'socialIcon';
+	src:url(../fonts/justvectorv2-webfont.eot);
+    src: url(../fonts/justvectorv2-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/justvectorv2-webfont.woff) format('woff'),
+         url(../fonts/justvectorv2-webfont.ttf) format('truetype'),
+         url(../fonts/justvectorv2-webfont.svg#socialIcon) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.socialIcon {
+	font-family: socialIcon;
+}
+
+h1 {
+	font-family: 'Exo', sans-serif;
+	font-weight:300; 
+	color:hsla(254, 31%, 49%, 1);
+	margin-bottom:0;
+	letter-spacing: 0.2em;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight:900;
+	font-size:1.5em;
+}
+
+/*fonts*/
+/* mixitup */
+#Container .mix{
+	display: none;
+}
+/*mixitup*/
+
+body {
+	font-family: 'Exo', sans-serif;
+	padding-top: 70px;
+}
+
+/*viewport*/
+
+.viewport {
+	position: fixed;
+	width:100%;
+	background-color:white;
+	height:40px;
+	top: 0;
+	left:0;
+	z-index:/*It's over*/ 9000;
+}
+
+.viewport-bottom {
+	top: auto;
+	bottom: 0;
+}
+
+/*viewport*/
+a.anchor {
+  display: block; 
+  position: relative; 
+  top: -0px; 
+  visibility: hidden;
+}
+
+.topLink {
+	position:fixed; 
+	bottom:0; 
+	right:50px; 
+	background-color:hsl(0,0%,0%); 
+	color:white; 
+	padding:15px; 
+	border:1px solid white;
+	z-index:9001;
+}
+
+a.black, .black:hover, .black:active {
+	color:white;
+	text-decoration:none;
+}
+
+.containerContainer {
+	 padding:0 15px;
+}
+
+.sideSocial {
+	display:block; 
+	background-color:black; 
+	margin:10px auto; 
+	padding:3px 8px; 
+	font-size:25px; 
+	color:white; 
+	border:1px solid black;
+	border-radius:5px; 
+	width:40px;
+}
+
+.info {
+		text-align:center;
+		padding:80px 0 0;
+}
+
+sup {
+	color:hsl(0,100%,40%); 
+	letter-spacing:0; 
+	font-size:10px; 
+	line-height:1.5;
+}
+
+.gallery img {
+	width:100%;
+	margin: 1px 0;
+}
+
+.galleryHead {
+	background-color:hsla(152, 19%, 33%, 1);
+	padding:10px;
+	text-align:center;
+	margin:40px 0 0;
+}
+
+.galleryHead h1 {
+	color:white;
+}
+
+.galleryUrumi {
+	background-color: hsla(287, 37%, 45%, 1);
+}
+
+.galleryHaikir {
+	background-color: hsla(43, 100%, 69%, 1);
+}
+.galleryBMW {
+	background-color: hsla(200, 89%, 39%, 1);
+}
+.galleryPeterbilt {
+	background-color: hsla(350, 57%, 46%, 1);
+}
+.galleryR7 {
+	background-color: hsla(19, 35%, 43%, 1);
+}
+
+.galleryKiska {
+	background-color: hsla(212, 28%, 80%, 1);
+}
+
+.portrait {
+	width :100%;
+}
+
+.landscape {
+	height:100%;
+}
+
+.gallery .logo {
+		width: 200px;
+	}
+
+	.info {
+		text-align:center;
+}
+
+/* tablets, Grid Size: col-sm-*/
+@media (min-width: 768px) { 
+
+}
+
+/* tablets, Grid Size: col-md-*/
+@media (min-width: 992px) { 
+
+
+ }
+
+/* tablets, Grid Size: cal-lg-*/
+@media (min-width: 1200px) { 
+	.info {
+		text-align:left;
+	}
+	
+	.sideSocial {
+		margin:10px;
+	}
+}
