@@ -109,7 +109,7 @@ transition: background 0.8s ease;
 	text-align:center; 
 	top:90%;
 	right:0;
-	z-index:/*Its over*/ 9000;
+	z-index:/*Its over*/ 9001;
 }
 
 /*navbar*/
@@ -181,6 +181,10 @@ transition: background 0.8s ease;
 .mixImg img{
 	display:block;
 	margin:auto;
+}
+
+.profile.galleryMode {
+	height:auto;
 }
 
 .profileImg {
