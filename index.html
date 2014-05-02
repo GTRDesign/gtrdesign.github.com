@@ -1,11 +1,10 @@
- <!doctype html>
+<!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GTR Design</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/bootstrap-glyphicons.css"/>
 <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
 <link rel="stylesheet" type="text/css" href="css/gtrDesign.css"/>
 <link href='http://fonts.googleapis.com/css?family=Exo:300,700|Raleway:900' rel='stylesheet' type='text/css'>
@@ -15,7 +14,7 @@
   <button type="button" class="btn btn-default hideNote">Hide</button>
   <button type="button" class="btn btn-default galleryClose">X</button>
 </div>
-<div class="topButton btn-group-vertical"> <a type="button" href="#" class="btn btn-default"><span class="glyphicon glyphicon glyphicon-chevron-up"></span></a> </div>
+<div class="topButton btn-group-vertical"> <a type="button" href="#" class="btn btn-default"><span class="glyphicon glyphicon-chevron-up"></span></a> </div>
 <!--edgeButton-->
 <nav class="navbar navbar-default navbar-fixed-top navbar-white navbar-inverse" role="navigation">
   <div class="container-fluid"> 
@@ -29,10 +28,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li> <a type="button" class="btn btn-default navbar-btn filter" data-filter=".profile">
+        <li> <a type="button" class="btn btn-default navbar-btn filter thumbLink" data-filter=".profile">
           <div class="sort" data-sort="myorder:asc"> Profile </div>
           </a> </li>
-        <li class="latest"><a class="btn btn-default navbar-btn" data-filter="all">
+        <li class="latest"><a class="btn btn-default navbar-btn thumbLink" data-filter="all">
           <div class="sort" data-sort="myorder:desc">Sort : Latest</div>
           </a></li>
         <li><a class="btn btn-default navbar-btn filter" data-filter=".portfolio">
@@ -43,6 +42,9 @@
           </a></li>
         <li><a class="btn btn-default navbar-btn filter" data-filter="all">
           <div>All</div>
+          </a></li>
+        <li><a class="btn btn-default navbar-btn filter thumbLink" data-filter=".download">
+          <div class="sort" data-sort="myorder:asc">Download</div>
           </a></li>
       </ul>
     </div>
@@ -570,14 +572,14 @@
       </div>
       <!--descript--> 
     </div>
-    <!--mix--> 
+    <!--mix-->
     <div class="mix sketches" data-myorder="43">
       <div class="mixImg"> <img src="Img/3Dprint1.jpg"/> </div>
       <div class="descript">
         <div class="note">
           <h5>Early 3D Printed Car Sketches</h5>
           <h6>April 28, 2014</h6>
-          <p>Some early sketches for the LM 3D printed design project.  </p>
+          <p>Some early sketches for the LM 3D printed design project. </p>
           <p>Pen.</p>
         </div>
         <!--note--> 
@@ -591,42 +593,42 @@
         <div class="note">
           <h5>Early 3D Printed Car Sketches (Interior)</h5>
           <h6>April 28, 2014</h6>
-          <p>Some early sketches for the LM 3D printed design project.  </p>
+          <p>Some early sketches for the LM 3D printed design project. </p>
           <p>Pen.</p>
         </div>
         <!--note--> 
       </div>
       <!--descript--> 
     </div>
-    <!--mix--> 
+    <!--mix-->
     <div class="mix sketches" data-myorder="45">
       <div class="mixImg"> <img src="Img/3Dprint3.jpg"/> </div>
       <div class="descript">
         <div class="note">
           <h5>Early 3D Printed Car Sketches</h5>
           <h6>April 28, 2014</h6>
-          <p>Some early sketches for the LM 3D printed design project.  </p>
+          <p>Some early sketches for the LM 3D printed design project. </p>
           <p>Pen.</p>
         </div>
         <!--note--> 
       </div>
       <!--descript--> 
     </div>
-    <!--mix--> 
+    <!--mix-->
     <div class="mix sketches" data-myorder="46">
       <div class="mixImg"> <img src="Img/3Dprint4.jpg"/> </div>
       <div class="descript">
         <div class="note">
           <h5>Early 3D Printed Car Sketches (Interior)</h5>
           <h6>April 28, 2014</h6>
-          <p>Some early sketches for the LM 3D printed design project.  </p>
+          <p>Some early sketches for the LM 3D printed design project. </p>
           <p>Pen.</p>
         </div>
         <!--note--> 
       </div>
       <!--descript--> 
     </div>
-    <!--mix--> 
+    <!--mix-->
     <div class="mix sketches" data-myorder="47">
       <div class="mixImg"> <img src="Img/3Dprint5.jpg"/> </div>
       <div class="descript">
@@ -640,7 +642,7 @@
       </div>
       <!--descript--> 
     </div>
-    <!--mix--> 
+    <!--mix-->
     <div class="mix sketches" data-myorder="48">
       <div class="mixImg"> <img src="Img/3Dprint6.jpg"/> </div>
       <div class="descript">
@@ -654,8 +656,62 @@
       </div>
       <!--descript--> 
     </div>
+    <!--mix-->
+    <div class="mix download" data-myorder="49">
+      <div class="mixImgOptOut">
+        <div class="mixDiv">
+          <div class="mixDivImg"></div>
+          <div class="profileImg">
+            <h2>CV Download</h2>
+            <p class="email">62 KB</p>
+            <a type="button" href="https://mega.co.nz/#!2d4HnLbB!H6MfHyEdeOQaeca17nXZs9O8eqwMh-BpU8tLL3ovHTQ" class="btn btn-default" target="_blank">
+               <span class="glyphicon glyphicon glyphicon-save"></span>
+            </a> 
+          </div>
+          <!--profileImg--> 
+        </div>
+        <!--mixDiv--> 
+      </div>
+      <!--mixImg-->
+      <div class="descript">
+        <div class="note">
+          <h5>Download CV</h5>
+          <h6>Click Icon to Download</h6>
+          <p></p>
+        </div>
+        <!--note--> 
+      </div>
+      <!--descript--> 
+    </div>
+    <!--mix-->
+    <div class="mix download" data-myorder="50">
+      <div class="mixImgOptOut">
+        <div class="mixDiv">
+          <div class="mixDivImg"></div>
+          <div class="profileImg">
+            <h2>Portfolio Download</h2>
+            <p class="email">33.1MB</p>
+            <a type="button" href="https://mega.co.nz/#!HZQSTYxY!YeOAh0TCBK35NB5TSoTcDBJTDJDkSoAnOxV65t3ArmY" class="btn btn-default" target="_blank">
+              <span class="glyphicon glyphicon glyphicon-save"></span>
+            </a> 
+          </div>
+          <!--profileImg--> 
+        </div>
+        <!--mixDiv--> 
+      </div>
+      <!--mixImg-->
+      <div class="descript">
+        <div class="note">
+          <h5>Download Portfolio</h5>
+          <h6>Click Icon to Download</h6>
+          <p></p>
+        </div>
+        <!--note--> 
+      </div>
+      <!--descript--> 
+    </div>
     <!--mix--> 
-
+    
     <!--
     <div class="mix sketches" data-myorder="41">
       <div class="mixImg"> <img src="Img/G_Kiska24.jpg"/> </div>
@@ -705,296 +761,297 @@
                   <div class="col-sm-6">
                     <h5>Skills</h5>
                     <div class="row">
-                    <div class="col-xs-6">
-                      <h6>Conceptual development (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Ideation (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>3D Computer Modeling (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Graphic Design (7)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Web Design (7)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Autodesk AliasStudio (8)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Rhino 3D (6)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Showcase (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Keyshot (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Photoshop (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
+                      <div class="col-xs-6">
+                        <h6>Conceptual development (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Ideation (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>3D Computer Modeling (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Graphic Design (7)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Web Design (7)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Autodesk AliasStudio (8)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Rhino 3D (6)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Showcase (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Keyshot (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Photoshop (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                      </div>
+                      <!--col-->
+                      <div class="col-xs-6">
+                        <h6>Illustrator (8)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Indesign (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Dreamweaver (7)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Premiere Pro (5)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>HTML5 (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>CSS (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>JQuery (6)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Mac OS X or Windows (9)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                        <h6>Modelmaking in various media (6)</h6>
+                        <ul>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li class="indicator"></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                      </div>
+                      <!--col--> 
                     </div>
-                    <!--col-->
-                    <div class="col-xs-6">
-                      <h6>Illustrator (8)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Indesign (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Dreamweaver (7)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Premiere Pro (5)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>HTML5 (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>CSS (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>JQuery (6)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Mac OS X or Windows (9)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                      <h6>Modelmaking in various media (6)</h6>
-                      <ul>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li class="indicator"></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
-                      <div class="clearfix"></div>
-                    </div>
-                    <!--col--> 
-                    </div><!--row-->
+                    <!--row-->
                     <h5>Education</h5>
-              <h6>College for Creative Studies, Detroit, Michigan</h6>
-              <b>Jan 2008 - Dec 2011 </b>
-              <p>BFA Industrial Design - Transportation. Graduation</p>
-              <h6>Lynda.com</h6>
-              <b>May 2012 - Ongoing</b>
-              <p>Online training for Javascript, Web Design, Mobile Design and improvements to existing skills such as Indesign.</p>
-              <h5>ExtraCurricular</h5>
-              <h6>Canadian Human Rights Voice, Volunteer</h6>
-              <b>June 2012 - Ongoing</b>
-              <p>Create flyers, documents and help organize fundraising events such as galas for the advancement and awareness of Human Rights. </p>
+                    <h6>College for Creative Studies, Detroit, Michigan</h6>
+                    <b>Jan 2008 - Dec 2011 </b>
+                    <p>BFA Industrial Design - Transportation. Graduation</p>
+                    <h6>Lynda.com</h6>
+                    <b>May 2012 - Ongoing</b>
+                    <p>Online training for Javascript, Web Design, Mobile Design and improvements to existing skills such as Indesign.</p>
+                    <h5>ExtraCurricular</h5>
+                    <h6>Canadian Human Rights Voice, Volunteer</h6>
+                    <b>June 2012 - Ongoing</b>
+                    <p>Create flyers, documents and help organize fundraising events such as galas for the advancement and awareness of Human Rights. </p>
                   </div>
                   <!--col--> 
                 </div>
                 <!--row--> 
               </div>
-              <!--container-->
+              <!--container--> 
               
             </div>
             <!--cv--> 

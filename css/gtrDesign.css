@@ -178,9 +178,23 @@ transition: background 0.8s ease;
 	cursor:pointer;
 }
 
+.mixImgOptOut {
+	height:85%;
+	overflow:hidden;
+	margin:-20px 0 0;
+}
+
+.mixImgOptOut .mixDiv {
+	width:100%;
+}
+
 .mixImg img{
 	display:block;
 	margin:auto;
+}
+
+.download.galleryMode {
+	display:none;
 }
 
 .profile.galleryMode {
